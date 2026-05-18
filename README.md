@@ -194,20 +194,19 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  printf("212224220109\n");
-	  printf("SANTHOSH V\n");
-	  printf("B.Tech AI&DS\n");
-	  HAL_Delay(500);
     /* USER CODE END WHILE */
-
+	  printf("212224220049\n");
+	  printf("KOWSHIKA R\n");
+	  printf("IT");
+	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
 PUTCHAR_PROTOTYPE
 {
-HAL_UART_Transmit(&huart2,(uint8_t*)&ch,1,0xFFFF);
-return ch;
+      HAL_UART_Transmit(&huart2,(uint8_t*)&ch,1,0xFFFF);
+      return ch;
 }
 /**
   * @brief System Clock Configuration
@@ -352,6 +351,7 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
+
 ```
 
 
